@@ -73,7 +73,7 @@
     [steps addObject:[KIFTestStep stepToTapViewWithAccessibilityLabel:@"Add"]];
     [steps addObject:[KIFTestStep stepToEnterText:@"DAFFY" intoViewWithAccessibilityLabel:@"firstNameTextfield"]];
     [steps addObject:[KIFTestStep stepToEnterText:@"abc" intoViewWithAccessibilityLabel:@"lastNameTextfield"]];
-    [steps addObject:[KIFTestStep stepToEnterText:@"pqr" intoViewWithAccessibilityLabel:@"companyTextfield1"]];
+    [steps addObject:[KIFTestStep stepToEnterText:@"pqr" intoViewWithAccessibilityLabel:@"companyTextfield"]];
     [steps addObject:[KIFTestStep stepToTapViewWithAccessibilityLabel:@"Done"]];
 
     return steps;

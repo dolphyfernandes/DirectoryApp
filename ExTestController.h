@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "KIFTestController.h"
+#import "KIFTestStep+EXAdditions.h"
 
 @interface EXTestController : KIFTestController {}
 
