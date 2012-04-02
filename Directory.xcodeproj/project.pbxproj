@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6F61CBC15262D380018F2F9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6F61CBB15262D380018F2F9 /* UIKit.framework */; };
+		F6F61CBE15262D380018F2F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6F61CBD15262D380018F2F9 /* Foundation.framework */; };
+		F6F61CC015262D380018F2F9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6F61CBF15262D380018F2F9 /* CoreGraphics.framework */; };
+		F6F61CC615262D380018F2F9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F6F61CC415262D380018F2F9 /* InfoPlist.strings */; };
+		F6F61CC815262D380018F2F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F61CC715262D380018F2F9 /* main.m */; };
+		F6F61CCC15262D380018F2F9 /* DFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F61CCB15262D380018F2F9 /* DFAppDelegate.m */; };
+		F6F61CCF15262D380018F2F9 /* DFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F61CCE15262D380018F2F9 /* DFViewController.m */; };
+		F6F61CD215262D380018F2F9 /* DFViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6F61CD015262D380018F2F9 /* DFViewController.xib */; };
+		F6F61CDD15262DDB0018F2F9 /* DFDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F61CDB15262DDB0018F2F9 /* DFDetailViewController.m */; };
+		F6F61CDE15262DDB0018F2F9 /* DFDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6F61CDC15262DDB0018F2F9 /* DFDetailViewController.xib */; };
+		F6F61CE1152630B00018F2F9 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F61CE0152630B00018F2F9 /* Person.m */; };
+		F6F61CE51526373B0018F2F9 /* DFAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F61CE31526373B0018F2F9 /* DFAddViewController.m */; };
+		F6F61CE61526373B0018F2F9 /* DFAddViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6F61CE41526373B0018F2F9 /* DFAddViewController.xib */; };
+		F6F61CF0152640400018F2F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F61CC715262D380018F2F9 /* main.m */; };
+		F6F61CF1152640400018F2F9 /* DFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F61CCB15262D380018F2F9 /* DFAppDelegate.m */; };
+		F6F61CF2152640400018F2F9 /* DFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F61CCE15262D380018F2F9 /* DFViewController.m */; };
+		F6F61CF3152640400018F2F9 /* DFDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F61CDB15262DDB0018F2F9 /* DFDetailViewController.m */; };
+		F6F61CF4152640400018F2F9 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F61CE0152630B00018F2F9 /* Person.m */; };
+		F6F61CF5152640400018F2F9 /* DFAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F61CE31526373B0018F2F9 /* DFAddViewController.m */; };
+		F6F61CF7152640400018F2F9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6F61CBB15262D380018F2F9 /* UIKit.framework */; };
+		F6F61CF8152640400018F2F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6F61CBD15262D380018F2F9 /* Foundation.framework */; };
+		F6F61CF9152640400018F2F9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6F61CBF15262D380018F2F9 /* CoreGraphics.framework */; };
+		F6F61CFB152640400018F2F9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F6F61CC415262D380018F2F9 /* InfoPlist.strings */; };
+		F6F61CFC152640400018F2F9 /* DFViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6F61CD015262D380018F2F9 /* DFViewController.xib */; };
+		F6F61CFD152640400018F2F9 /* DFDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6F61CDC15262DDB0018F2F9 /* DFDetailViewController.xib */; };
+		F6F61CFE152640400018F2F9 /* DFAddViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6F61CE41526373B0018F2F9 /* DFAddViewController.xib */; };
+		F6F61D061526408E0018F2F9 /* libKIF.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6F61D051526408E0018F2F9 /* libKIF.a */; };
+		F6F61D0A152644260018F2F9 /* ExTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F61D09152644260018F2F9 /* ExTestController.m */; };
+		F6F61D0D152645000018F2F9 /* KIFTestScenario+ExAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F61D0C152645000018F2F9 /* KIFTestScenario+ExAdditions.m */; };
+		F6F61D10152645490018F2F9 /* KIFTestStep+EXAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F61D0F152645490018F2F9 /* KIFTestStep+EXAdditions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F665E81C152A124B00EB6C26 /* Directory copy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Directory copy.entitlements"; sourceTree = "<group>"; };
+		F6F61CB715262D380018F2F9 /* Directory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Directory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6F61CBB15262D380018F2F9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F6F61CBD15262D380018F2F9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F6F61CBF15262D380018F2F9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F6F61CC315262D380018F2F9 /* Directory-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Directory-Info.plist"; sourceTree = "<group>"; };
+		F6F61CC515262D380018F2F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F6F61CC715262D380018F2F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F6F61CC915262D380018F2F9 /* Directory-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Directory-Prefix.pch"; sourceTree = "<group>"; };
+		F6F61CCA15262D380018F2F9 /* DFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DFAppDelegate.h; sourceTree = "<group>"; };
+		F6F61CCB15262D380018F2F9 /* DFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFAppDelegate.m; sourceTree = "<group>"; };
+		F6F61CCD15262D380018F2F9 /* DFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DFViewController.h; sourceTree = "<group>"; };
+		F6F61CCE15262D380018F2F9 /* DFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFViewController.m; sourceTree = "<group>"; };
+		F6F61CD115262D380018F2F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DFViewController.xib; sourceTree = "<group>"; };
+		F6F61CDA15262DDB0018F2F9 /* DFDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFDetailViewController.h; sourceTree = "<group>"; };
+		F6F61CDB15262DDB0018F2F9 /* DFDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFDetailViewController.m; sourceTree = "<group>"; };
+		F6F61CDC15262DDB0018F2F9 /* DFDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DFDetailViewController.xib; sourceTree = "<group>"; };
+		F6F61CDF152630B00018F2F9 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		F6F61CE0152630B00018F2F9 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		F6F61CE21526373B0018F2F9 /* DFAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFAddViewController.h; sourceTree = "<group>"; };
+		F6F61CE31526373B0018F2F9 /* DFAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFAddViewController.m; sourceTree = "<group>"; };
+		F6F61CE41526373B0018F2F9 /* DFAddViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DFAddViewController.xib; sourceTree = "<group>"; };
+		F6F61D02152640400018F2F9 /* Directory copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Directory copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6F61D04152640400018F2F9 /* Directory copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Directory copy-Info.plist"; path = "/Users/dfernandes/Developer/testingframework/Directory/Directory copy-Info.plist"; sourceTree = "<absolute>"; };
+		F6F61D051526408E0018F2F9 /* libKIF.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libKIF.a; path = "Frameworks/KIF/build/Release-iphoneos/libKIF.a"; sourceTree = "<group>"; };
+		F6F61D08152644260018F2F9 /* ExTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExTestController.h; sourceTree = "<group>"; };
+		F6F61D09152644260018F2F9 /* ExTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExTestController.m; sourceTree = "<group>"; };
+		F6F61D0B152645000018F2F9 /* KIFTestScenario+ExAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KIFTestScenario+ExAdditions.h"; sourceTree = "<group>"; };
+		F6F61D0C152645000018F2F9 /* KIFTestScenario+ExAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KIFTestScenario+ExAdditions.m"; sourceTree = "<group>"; };
+		F6F61D0E152645490018F2F9 /* KIFTestStep+EXAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KIFTestStep+EXAdditions.h"; sourceTree = "<group>"; };
+		F6F61D0F152645490018F2F9 /* KIFTestStep+EXAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KIFTestStep+EXAdditions.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6F61CB415262D380018F2F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6F61CBC15262D380018F2F9 /* UIKit.framework in Frameworks */,
+				F6F61CBE15262D380018F2F9 /* Foundation.framework in Frameworks */,
+				F6F61CC015262D380018F2F9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6F61CF6152640400018F2F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6F61D061526408E0018F2F9 /* libKIF.a in Frameworks */,
+				F6F61CF7152640400018F2F9 /* UIKit.framework in Frameworks */,
+				F6F61CF8152640400018F2F9 /* Foundation.framework in Frameworks */,
+				F6F61CF9152640400018F2F9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6F61CAC15262D370018F2F9 = {
+			isa = PBXGroup;
+			children = (
+				F665E81C152A124B00EB6C26 /* Directory copy.entitlements */,
+				F6F61D051526408E0018F2F9 /* libKIF.a */,
+				F6F61CC115262D380018F2F9 /* Directory */,
+				F6F61D07152643D10018F2F9 /* Tests */,
+				F6F61CBA15262D380018F2F9 /* Frameworks */,
+				F6F61CB815262D380018F2F9 /* Products */,
+				F6F61D04152640400018F2F9 /* Directory copy-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		F6F61CB815262D380018F2F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6F61CB715262D380018F2F9 /* Directory.app */,
+				F6F61D02152640400018F2F9 /* Directory copy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6F61CBA15262D380018F2F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6F61CBB15262D380018F2F9 /* UIKit.framework */,
+				F6F61CBD15262D380018F2F9 /* Foundation.framework */,
+				F6F61CBF15262D380018F2F9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F6F61CC115262D380018F2F9 /* Directory */ = {
+			isa = PBXGroup;
+			children = (
+				F6F61CDF152630B00018F2F9 /* Person.h */,
+				F6F61CE0152630B00018F2F9 /* Person.m */,
+				F6F61CCA15262D380018F2F9 /* DFAppDelegate.h */,
+				F6F61CCB15262D380018F2F9 /* DFAppDelegate.m */,
+				F6F61CCD15262D380018F2F9 /* DFViewController.h */,
+				F6F61CCE15262D380018F2F9 /* DFViewController.m */,
+				F6F61CE21526373B0018F2F9 /* DFAddViewController.h */,
+				F6F61CE31526373B0018F2F9 /* DFAddViewController.m */,
+				F6F61CDA15262DDB0018F2F9 /* DFDetailViewController.h */,
+				F6F61CDB15262DDB0018F2F9 /* DFDetailViewController.m */,
+				F6F61CD915262D500018F2F9 /* XIBs */,
+				F6F61CD815262D490018F2F9 /* Resources */,
+				F6F61CC215262D380018F2F9 /* Supporting Files */,
+			);
+			path = Directory;
+			sourceTree = "<group>";
+		};
+		F6F61CC215262D380018F2F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6F61CC315262D380018F2F9 /* Directory-Info.plist */,
+				F6F61CC415262D380018F2F9 /* InfoPlist.strings */,
+				F6F61CC715262D380018F2F9 /* main.m */,
+				F6F61CC915262D380018F2F9 /* Directory-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F6F61CD815262D490018F2F9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F6F61CD915262D500018F2F9 /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				F6F61CD015262D380018F2F9 /* DFViewController.xib */,
+				F6F61CDC15262DDB0018F2F9 /* DFDetailViewController.xib */,
+				F6F61CE41526373B0018F2F9 /* DFAddViewController.xib */,
+			);
+			name = XIBs;
+			sourceTree = "<group>";
+		};
+		F6F61D07152643D10018F2F9 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F6F61D08152644260018F2F9 /* ExTestController.h */,
+				F6F61D09152644260018F2F9 /* ExTestController.m */,
+				F6F61D0B152645000018F2F9 /* KIFTestScenario+ExAdditions.h */,
+				F6F61D0C152645000018F2F9 /* KIFTestScenario+ExAdditions.m */,
+				F6F61D0E152645490018F2F9 /* KIFTestStep+EXAdditions.h */,
+				F6F61D0F152645490018F2F9 /* KIFTestStep+EXAdditions.m */,
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6F61CB615262D380018F2F9 /* Directory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6F61CD515262D380018F2F9 /* Build configuration list for PBXNativeTarget "Directory" */;
+			buildPhases = (
+				F6F61CB315262D380018F2F9 /* Sources */,
+				F6F61CB415262D380018F2F9 /* Frameworks */,
+				F6F61CB515262D380018F2F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Directory;
+			productName = Directory;
+			productReference = F6F61CB715262D380018F2F9 /* Directory.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6F61CEE152640400018F2F9 /* Integration Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6F61CFF152640400018F2F9 /* Build configuration list for PBXNativeTarget "Integration Tests" */;
+			buildPhases = (
+				F6F61CEF152640400018F2F9 /* Sources */,
+				F6F61CF6152640400018F2F9 /* Frameworks */,
+				F6F61CFA152640400018F2F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Integration Tests";
+			productName = Directory;
+			productReference = F6F61D02152640400018F2F9 /* Directory copy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6F61CAE15262D380018F2F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = F6F61CB115262D380018F2F9 /* Build configuration list for PBXProject "Directory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F6F61CAC15262D370018F2F9;
+			productRefGroup = F6F61CB815262D380018F2F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6F61CB615262D380018F2F9 /* Directory */,
+				F6F61CEE152640400018F2F9 /* Integration Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6F61CB515262D380018F2F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6F61CC615262D380018F2F9 /* InfoPlist.strings in Resources */,
+				F6F61CD215262D380018F2F9 /* DFViewController.xib in Resources */,
+				F6F61CDE15262DDB0018F2F9 /* DFDetailViewController.xib in Resources */,
+				F6F61CE61526373B0018F2F9 /* DFAddViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6F61CFA152640400018F2F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6F61CFB152640400018F2F9 /* InfoPlist.strings in Resources */,
+				F6F61CFC152640400018F2F9 /* DFViewController.xib in Resources */,
+				F6F61CFD152640400018F2F9 /* DFDetailViewController.xib in Resources */,
+				F6F61CFE152640400018F2F9 /* DFAddViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6F61CB315262D380018F2F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6F61CC815262D380018F2F9 /* main.m in Sources */,
+				F6F61CCC15262D380018F2F9 /* DFAppDelegate.m in Sources */,
+				F6F61CCF15262D380018F2F9 /* DFViewController.m in Sources */,
+				F6F61CDD15262DDB0018F2F9 /* DFDetailViewController.m in Sources */,
+				F6F61CE1152630B00018F2F9 /* Person.m in Sources */,
+				F6F61CE51526373B0018F2F9 /* DFAddViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6F61CEF152640400018F2F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6F61CF0152640400018F2F9 /* main.m in Sources */,
+				F6F61CF1152640400018F2F9 /* DFAppDelegate.m in Sources */,
+				F6F61CF2152640400018F2F9 /* DFViewController.m in Sources */,
+				F6F61CF3152640400018F2F9 /* DFDetailViewController.m in Sources */,
+				F6F61CF4152640400018F2F9 /* Person.m in Sources */,
+				F6F61CF5152640400018F2F9 /* DFAddViewController.m in Sources */,
+				F6F61D0A152644260018F2F9 /* ExTestController.m in Sources */,
+				F6F61D0D152645000018F2F9 /* KIFTestScenario+ExAdditions.m in Sources */,
+				F6F61D10152645490018F2F9 /* KIFTestStep+EXAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F6F61CC415262D380018F2F9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6F61CC515262D380018F2F9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F6F61CD015262D380018F2F9 /* DFViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6F61CD115262D380018F2F9 /* en */,
+			);
+			name = DFViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6F61CD315262D380018F2F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F6F61CD415262D380018F2F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6F61CD615262D380018F2F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Directory/Directory-Prefix.pch";
+				INFOPLIST_FILE = "Directory/Directory-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F6F61CD715262D380018F2F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Directory/Directory-Prefix.pch";
+				INFOPLIST_FILE = "Directory/Directory-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F6F61D00152640400018F2F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Directory/Directory-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"RUN_KIF_TESTS=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Frameworks/KIF/**",
+				);
+				INFOPLIST_FILE = "Directory copy-Info.plist";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "Directory copy";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F6F61D01152640400018F2F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Directory/Directory-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"RUN_KIF_TESTS=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Frameworks/KIF/**",
+				);
+				INFOPLIST_FILE = "Directory copy-Info.plist";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "Directory copy";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6F61CB115262D380018F2F9 /* Build configuration list for PBXProject "Directory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6F61CD315262D380018F2F9 /* Debug */,
+				F6F61CD415262D380018F2F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6F61CD515262D380018F2F9 /* Build configuration list for PBXNativeTarget "Directory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6F61CD615262D380018F2F9 /* Debug */,
+				F6F61CD715262D380018F2F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6F61CFF152640400018F2F9 /* Build configuration list for PBXNativeTarget "Integration Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6F61D00152640400018F2F9 /* Debug */,
+				F6F61D01152640400018F2F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6F61CAE15262D380018F2F9 /* Project object */;
+}
