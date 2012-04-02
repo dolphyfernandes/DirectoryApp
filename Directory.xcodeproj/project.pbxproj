@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		291843A2152A3BBE009DD02A /* Directory copy-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 291843A1152A3BBE009DD02A /* Directory copy-Info.plist */; };
 		F6F61CBC15262D380018F2F9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6F61CBB15262D380018F2F9 /* UIKit.framework */; };
 		F6F61CBE15262D380018F2F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6F61CBD15262D380018F2F9 /* Foundation.framework */; };
 		F6F61CC015262D380018F2F9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6F61CBF15262D380018F2F9 /* CoreGraphics.framework */; };
@@ -40,6 +41,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		291843A1152A3BBE009DD02A /* Directory copy-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Directory copy-Info.plist"; sourceTree = "<group>"; };
 		F665E81C152A124B00EB6C26 /* Directory copy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Directory copy.entitlements"; sourceTree = "<group>"; };
 		F6F61CB715262D380018F2F9 /* Directory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Directory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6F61CBB15262D380018F2F9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -62,8 +64,7 @@
 		F6F61CE21526373B0018F2F9 /* DFAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFAddViewController.h; sourceTree = "<group>"; };
 		F6F61CE31526373B0018F2F9 /* DFAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFAddViewController.m; sourceTree = "<group>"; };
 		F6F61CE41526373B0018F2F9 /* DFAddViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DFAddViewController.xib; sourceTree = "<group>"; };
-		F6F61D02152640400018F2F9 /* Directory copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Directory copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F6F61D04152640400018F2F9 /* Directory copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Directory copy-Info.plist"; path = "/Users/dfernandes/Developer/testingframework/Directory/Directory copy-Info.plist"; sourceTree = "<absolute>"; };
+		F6F61D02152640400018F2F9 /* Integration Tests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Integration Tests.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6F61D051526408E0018F2F9 /* libKIF.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libKIF.a; path = "Frameworks/KIF/build/Release-iphoneos/libKIF.a"; sourceTree = "<group>"; };
 		F6F61D08152644260018F2F9 /* ExTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExTestController.h; sourceTree = "<group>"; };
 		F6F61D09152644260018F2F9 /* ExTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExTestController.m; sourceTree = "<group>"; };
@@ -107,7 +108,7 @@
 				F6F61D07152643D10018F2F9 /* Tests */,
 				F6F61CBA15262D380018F2F9 /* Frameworks */,
 				F6F61CB815262D380018F2F9 /* Products */,
-				F6F61D04152640400018F2F9 /* Directory copy-Info.plist */,
+				291843A1152A3BBE009DD02A /* Directory copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,7 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				F6F61CB715262D380018F2F9 /* Directory.app */,
-				F6F61D02152640400018F2F9 /* Directory copy.app */,
+				F6F61D02152640400018F2F9 /* Integration Tests.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -225,7 +226,7 @@
 			);
 			name = "Integration Tests";
 			productName = Directory;
-			productReference = F6F61D02152640400018F2F9 /* Directory copy.app */;
+			productReference = F6F61D02152640400018F2F9 /* Integration Tests.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -263,6 +264,7 @@
 				F6F61CD215262D380018F2F9 /* DFViewController.xib in Resources */,
 				F6F61CDE15262DDB0018F2F9 /* DFDetailViewController.xib in Resources */,
 				F6F61CE61526373B0018F2F9 /* DFAddViewController.xib in Resources */,
+				291843A2152A3BBE009DD02A /* Directory copy-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,7 +425,7 @@
 					"-ObjC",
 					"-all_load",
 				);
-				PRODUCT_NAME = "Directory copy";
+				PRODUCT_NAME = "Integration Tests";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -447,7 +449,7 @@
 					"-ObjC",
 					"-all_load",
 				);
-				PRODUCT_NAME = "Directory copy";
+				PRODUCT_NAME = "Integration Tests";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
