@@ -7,6 +7,7 @@
 //
 
 #import "EXTestController.h"
+#import "KIFTestScenario+ExAdditions.m"
 
 @implementation EXTestController
 

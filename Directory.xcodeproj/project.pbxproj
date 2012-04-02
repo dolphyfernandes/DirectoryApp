@@ -386,6 +386,7 @@
 					"$(SRCROOT)/Frameworks/KIF/**",
 				);
 				INFOPLIST_FILE = "Directory/Directory-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -401,6 +402,7 @@
 					"$(SRCROOT)/Frameworks/KIF/**",
 				);
 				INFOPLIST_FILE = "Directory/Directory-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -420,6 +422,7 @@
 					"$(SRCROOT)/Frameworks/KIF/**",
 				);
 				INFOPLIST_FILE = "Directory copy-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -444,6 +447,7 @@
 					"$(SRCROOT)/Frameworks/KIF/**",
 				);
 				INFOPLIST_FILE = "Directory copy-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",

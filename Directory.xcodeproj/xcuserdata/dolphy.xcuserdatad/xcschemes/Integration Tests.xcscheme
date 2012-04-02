@@ -14,7 +14,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F6F61CEE152640400018F2F9"
-               BuildableName = "Directory copy.app"
+               BuildableName = "Integration Tests.app"
                BlueprintName = "Integration Tests"
                ReferencedContainer = "container:Directory.xcodeproj">
             </BuildableReference>
@@ -32,7 +32,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F6F61CEE152640400018F2F9"
-            BuildableName = "Directory copy.app"
+            BuildableName = "Integration Tests.app"
             BlueprintName = "Integration Tests"
             ReferencedContainer = "container:Directory.xcodeproj">
          </BuildableReference>
@@ -50,7 +50,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F6F61CEE152640400018F2F9"
-            BuildableName = "Directory copy.app"
+            BuildableName = "Integration Tests.app"
             BlueprintName = "Integration Tests"
             ReferencedContainer = "container:Directory.xcodeproj">
          </BuildableReference>
@@ -68,7 +68,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F6F61CEE152640400018F2F9"
-            BuildableName = "Directory copy.app"
+            BuildableName = "Integration Tests.app"
             BlueprintName = "Integration Tests"
             ReferencedContainer = "container:Directory.xcodeproj">
          </BuildableReference>
