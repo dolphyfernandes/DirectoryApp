@@ -76,8 +76,9 @@
     if (cell == nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier];
     }
-    Person* personForCell = [[(DFAppDelegate*)[[UIApplication sharedApplication] delegate] peopleArray] objectAtIndex:indexPath.row];
-    NSString* cellContent = [NSString stringWithFormat:@"%@ %@ - %@", [personForCell firstName], [personForCell lastName], [personForCell company]];
+    Person* person = [[(DFAppDelegate*)[[UIApplication sharedApplication] delegate] peopleArray] objectAtIndex:indexPath.row];
+
+    NSString* cellContent = [NSString stringWithFormat:@"%@ %@ - %@", [person firstName], [person lastName], [person company]];
     cell.textLabel.text = cellContent;
     
     return cell;
@@ -86,7 +87,9 @@
 -( void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 //    UIAlertView* alert = [[[UIAlertView alloc] initWithTitle:@"Tapped on Row" message:@"You have tapped on row" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil] autorelease];
 //    [alert show];
+    
     DFDetailViewController* detailVC = [[[DFDetailViewController alloc] initWithNibName:@"DFDetailViewController" bundle:nil] autorelease];
+    [detailVC setIndexSelected:[indexPath row]];
     [self presentModalViewController:detailVC animated:YES];
 }
 

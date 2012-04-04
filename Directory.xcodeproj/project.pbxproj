@@ -64,7 +64,7 @@
 		F6F61CE21526373B0018F2F9 /* DFAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFAddViewController.h; sourceTree = "<group>"; };
 		F6F61CE31526373B0018F2F9 /* DFAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFAddViewController.m; sourceTree = "<group>"; };
 		F6F61CE41526373B0018F2F9 /* DFAddViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DFAddViewController.xib; sourceTree = "<group>"; };
-		F6F61D02152640400018F2F9 /* Integration Tests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Integration Tests.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6F61D02152640400018F2F9 /* Directory (Integration Tests).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Directory (Integration Tests).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6F61D051526408E0018F2F9 /* libKIF.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libKIF.a; path = "Frameworks/KIF/build/Release-iphoneos/libKIF.a"; sourceTree = "<group>"; };
 		F6F61D08152644260018F2F9 /* ExTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExTestController.h; sourceTree = "<group>"; };
 		F6F61D09152644260018F2F9 /* ExTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExTestController.m; sourceTree = "<group>"; };
@@ -116,7 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				F6F61CB715262D380018F2F9 /* Directory.app */,
-				F6F61D02152640400018F2F9 /* Integration Tests.app */,
+				F6F61D02152640400018F2F9 /* Directory (Integration Tests).app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -226,7 +226,7 @@
 			);
 			name = "Integration Tests";
 			productName = Directory;
-			productReference = F6F61D02152640400018F2F9 /* Integration Tests.app */;
+			productReference = F6F61D02152640400018F2F9 /* Directory (Integration Tests).app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -381,6 +381,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Directory/Directory-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/Frameworks/KIF/**",
@@ -397,6 +398,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Directory/Directory-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/Frameworks/KIF/**",
@@ -417,6 +419,7 @@
 					"$(inherited)",
 					"RUN_KIF_TESTS=1",
 				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/Frameworks/KIF/**",
@@ -428,7 +431,7 @@
 					"-ObjC",
 					"-all_load",
 				);
-				PRODUCT_NAME = "Integration Tests";
+				PRODUCT_NAME = "Directory (Integration Tests)";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -442,6 +445,7 @@
 					"$(inherited)",
 					"RUN_KIF_TESTS=1",
 				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/Frameworks/KIF/**",
@@ -453,7 +457,7 @@
 					"-ObjC",
 					"-all_load",
 				);
-				PRODUCT_NAME = "Integration Tests";
+				PRODUCT_NAME = "Directory (Integration Tests)";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

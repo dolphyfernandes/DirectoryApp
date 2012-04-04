@@ -14,9 +14,23 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F6F61CEE152640400018F2F9"
-               BuildableName = "Integration Tests.app"
+               BuildableName = "Directory (Integration Tests).app"
                BlueprintName = "Integration Tests"
                ReferencedContainer = "container:Directory.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "AAB07267139719AC008AF393"
+               BuildableName = "libKIF.a"
+               BlueprintName = "KIF"
+               ReferencedContainer = "container:Frameworks/KIF/KIF.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F6F61CEE152640400018F2F9"
-            BuildableName = "Integration Tests.app"
+            BuildableName = "Directory (Integration Tests).app"
             BlueprintName = "Integration Tests"
             ReferencedContainer = "container:Directory.xcodeproj">
          </BuildableReference>
@@ -50,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F6F61CEE152640400018F2F9"
-            BuildableName = "Integration Tests.app"
+            BuildableName = "Directory (Integration Tests).app"
             BlueprintName = "Integration Tests"
             ReferencedContainer = "container:Directory.xcodeproj">
          </BuildableReference>
@@ -68,7 +82,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F6F61CEE152640400018F2F9"
-            BuildableName = "Integration Tests.app"
+            BuildableName = "Directory (Integration Tests).app"
             BlueprintName = "Integration Tests"
             ReferencedContainer = "container:Directory.xcodeproj">
          </BuildableReference>
