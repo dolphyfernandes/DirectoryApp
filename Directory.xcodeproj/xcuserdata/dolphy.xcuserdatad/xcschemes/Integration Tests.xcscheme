@@ -13,10 +13,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F6F61CEE152640400018F2F9"
-               BuildableName = "Directory (Integration Tests).app"
-               BlueprintName = "Integration Tests"
-               ReferencedContainer = "container:Directory.xcodeproj">
+               BlueprintIdentifier = "AAB07267139719AC008AF393"
+               BuildableName = "libKIF.a"
+               BlueprintName = "KIF"
+               ReferencedContainer = "container:Frameworks/KIF/KIF.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -27,10 +27,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AAB07267139719AC008AF393"
-               BuildableName = "libKIF.a"
-               BlueprintName = "KIF"
-               ReferencedContainer = "container:Frameworks/KIF/KIF.xcodeproj">
+               BlueprintIdentifier = "F6F61CEE152640400018F2F9"
+               BuildableName = "Directory (Integration Tests).app"
+               BlueprintName = "Integration Tests"
+               ReferencedContainer = "container:Directory.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
