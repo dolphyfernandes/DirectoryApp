@@ -40,8 +40,26 @@
 		F6F61D10152645490018F2F9 /* KIFTestStep+EXAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F61D0F152645490018F2F9 /* KIFTestStep+EXAdditions.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		29556BF8152F647B00D2E538 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29556BF4152F647B00D2E538 /* KIF.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AAB07268139719AC008AF393;
+			remoteInfo = KIF;
+		};
+		29556BFB152F648600D2E538 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29556BF4152F647B00D2E538 /* KIF.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = AAB07267139719AC008AF393;
+			remoteInfo = KIF;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		291843A1152A3BBE009DD02A /* Directory copy-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Directory copy-Info.plist"; sourceTree = "<group>"; };
+		29556BF4152F647B00D2E538 /* KIF.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KIF.xcodeproj; path = Frameworks/KIF/KIF.xcodeproj; sourceTree = "<group>"; };
 		F665E81C152A124B00EB6C26 /* Directory copy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Directory copy.entitlements"; sourceTree = "<group>"; };
 		F6F61CB715262D380018F2F9 /* Directory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Directory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6F61CBB15262D380018F2F9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -99,9 +117,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29556BF5152F647B00D2E538 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29556BF9152F647B00D2E538 /* libKIF.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		F6F61CAC15262D370018F2F9 = {
 			isa = PBXGroup;
 			children = (
+				29556BF4152F647B00D2E538 /* KIF.xcodeproj */,
 				F665E81C152A124B00EB6C26 /* Directory copy.entitlements */,
 				F6F61D051526408E0018F2F9 /* libKIF.a */,
 				F6F61CC115262D380018F2F9 /* Directory */,
@@ -223,6 +250,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				29556BFC152F648600D2E538 /* PBXTargetDependency */,
 			);
 			name = "Integration Tests";
 			productName = Directory;
@@ -247,6 +275,12 @@
 			mainGroup = F6F61CAC15262D370018F2F9;
 			productRefGroup = F6F61CB815262D380018F2F9 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 29556BF5152F647B00D2E538 /* Products */;
+					ProjectRef = 29556BF4152F647B00D2E538 /* KIF.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				F6F61CB615262D380018F2F9 /* Directory */,
@@ -254,6 +288,16 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		29556BF9152F647B00D2E538 /* libKIF.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libKIF.a;
+			remoteRef = 29556BF8152F647B00D2E538 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		F6F61CB515262D380018F2F9 /* Resources */ = {
@@ -312,6 +356,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29556BFC152F648600D2E538 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KIF;
+			targetProxy = 29556BFB152F648600D2E538 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F6F61CC415262D380018F2F9 /* InfoPlist.strings */ = {
